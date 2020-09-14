@@ -8,6 +8,8 @@
     --headings: 'Clicker Script', cursive;
     --bodyFont: 'Montserrat', sans-serif;
     --fontColor: #333;
+    --transition: .3s ease;
+    --font: 16px;
 }
 body {
     font-family: var(--bodyFont);
@@ -17,3 +19,80 @@ body {
 h1,h2,h3,h4, h5 {
     font-family: var(--headings)
 }
+.py-5 {
+    padding: 100px 0 !important;
+}
+/***************
+nav
+***************/
+nav {
+    background: rgba(125, 43, 140,.8);
+}
+.navbar-brand img {
+    width: 30%;
+}
+.navbar-brand img:hover {
+    opacity: .8;
+    transition: var(--transition);
+}
+.nav-link {
+    color: var(--white) !important;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.nav-link:hover {
+    color: var(--gold) !important;
+    transition: var(--transition);
+}
+/***************
+footer
+***************/
+footer {
+    background: var(--gold);
+}
+footer h3 {
+    font-size: 2.5rem;
+}
+footer h3::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: var(--fontColor);
+    margin: 20px 0;
+}
+footer a {
+    font-size: 3rem;
+    color: var(--violet);
+    transition: var(--transition);
+    margin-right: 20px;
+}
+footer a:hover {
+    color: var(--violet);
+    transition-duration: .7s;
+}
+footer i:hover {
+    animation: footer .7s ease;
+}
+@keyframes footer {
+    0% {
+        color: var(--violet);
+    }
+    50% {
+        color: var(--fontColor);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
