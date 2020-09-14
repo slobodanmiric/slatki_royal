@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat:wght@100;200;400&display=swap');
+:root {
+    --violet: #7d2b8c;  /* rgb(125, 43, 140) */
+    --gold: #dbc071;  /* rgb(219, 192, 113) */
+    --white: #fff;
+    --black: #000;
+    --lightgray: #f2f2f2;
+    --headings: 'Clicker Script', cursive;
+    --bodyFont: 'Montserrat', sans-serif;
+    --fontColor: #333;
+}
+body {
+    font-family: var(--bodyFont);
+    color: var(--fontColor);
+    line-height: 1.6;
+}
+h1,h2,h3,h4, h5 {
+    font-family: var(--headings)
+}
