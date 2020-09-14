@@ -85,8 +85,40 @@ footer i:hover {
         transform: rotate(360deg);
     }
 }
-
-
+/***************
+header
+***************/
+header {
+    background-image: linear-gradient(rgba(219, 192, 113,.7), rgba(255,255,255,.99)), url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh
+}
+header h1 {
+    background: rgba(125, 43, 140,.8)
+}
+/***************
+gradijent
+***************/
+.gradijent {
+    background: linear-gradient(45deg, var(--violet), var(--gold));
+}
+.gradijent img {
+    width: 15%;
+    margin: auto;
+}
+/***************
+slajder
+***************/
+.slajder .divider {
+    width: 35%;
+    margin: auto;
+}
+.slajder .carousel {
+    border: 10px solid;
+    border-image-source: linear-gradient(45deg, var(--violet), var(--gold));
+    border-image-slice: 1;
+}
 
 
 
