@@ -149,6 +149,29 @@ cta
 .cta {
     background: var(--lightgray);
 }
+/***************
+proizvodi
+***************/
+.proizvodi .card {
+    border: 5px solid;
+    border-image-source: linear-gradient(45deg, var(--violet), var(--gold));
+    border-image-slice: 1;
+    margin-bottom: 30px;
+}
+.proizvodi .card:hover {
+    border: 5px solid;
+    border-image-source: linear-gradient(45deg, var(--gold), var(--violet));
+    border-image-slice: 1;
+}
+
+
+
+
+
+
+
+
+
 
 
 
