@@ -163,8 +163,37 @@ proizvodi
     border-image-source: linear-gradient(45deg, var(--gold), var(--violet));
     border-image-slice: 1;
 }
-
-
+/***************
+blog
+***************/
+.post h3 {
+    font-size: 2.5rem;
+    color: var(--violet);
+}
+.meta {
+    border: 3px solid;
+    border-image-source: linear-gradient(45deg, var(--violet), var(--gold));
+    border-image-slice: 1;
+    padding: 5px;
+    display: inline-block;
+}
+.widget {
+    border: 3px solid;
+    border-image-source: linear-gradient(45deg, var(--violet), var(--gold));
+    border-image-slice: 1;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+.widget:first-child {
+    background: linear-gradient(45deg, var(--violet), var(--gold));
+    border: none;
+}
+.widget a {
+    color: var(--fontColor);
+}
+.widget a:hover {
+    color: var(--violet);
+}
 
 
 
